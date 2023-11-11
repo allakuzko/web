@@ -138,10 +138,8 @@
 
 .media p{
 	font-size: 35px;
-	color: #FFFFFF;
-	text-align: left;
-	margin-left: 60px;
-	margin-bottom: 40px;
+	color: white;
+	margin-bottom: 30px;
 
 }
 .medias{
@@ -498,6 +496,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
  }
  .media p{
 		font-size: 20px;
+
 	}
 	.images{
 	flex-wrap: wrap;
@@ -916,7 +915,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 	margin-left: 70px;
 } 
 .media p{
-	font-size: 24px;
+	font-size: 23px;
 	margin-left: 20px;
 }
  .news {
@@ -946,6 +945,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 } 
 .media p{
 	font-size: 22px;
+	margin-left: 10px;
 }
 .news h3 a{ 
 	text-decoration: none;
@@ -970,6 +970,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 	justify-content: center;
 	padding: 20px;
 }
+
 
 .news img{ 
 	width:100%;
