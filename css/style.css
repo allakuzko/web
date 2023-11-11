@@ -1,0 +1,1114 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Italiana';
+}
+.header{
+	background-image: url("msg793103486-397274.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 846px;
+}
+.navigation > .container{
+	max-width: 90%;
+	margin: auto;
+}
+.navigation .navbar{
+	position: relative;
+}
+.navigation .navbar .logo-toggle-container{
+	position: absolute;
+	left: 820px;
+	top:20px;
+	transform: translateX(-50%);
+}
+
+.navigation .menu
+{
+	text-align: right;
+}
+
+.navigation .menu li
+{
+	display: inline-block;
+	padding: 56px 15px;
+}
+
+.navigation .menu li a{
+	display: block;
+	padding: 8px 7px;
+	text-decoration: none;
+	font-weight: 400;
+	color: black;
+	font-size: 25px;
+
+}
+.navigation .menu li:nth-child(1),
+.navigation .menu li:nth-child(2),
+.navigation .menu li:nth-child(3),
+.navigation .menu li:nth-child(4)
+{
+  float: left;
+}
+
+.navigation .menu li:hover a
+{
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+.about {
+	background-color: #242424;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.about_deneuve h1{
+	font-size: 40px;
+	color: #FFFFFF;
+
+}
+
+.about_deneuve{
+	background-color: #242424;
+	width: 100%;
+	margin: 60px 60px 60px 60px; 
+	
+	
+}
+ 
+ .about_deneuve img{
+ 	max-width: 300px;
+ 	float: left;
+ 	margin-right: 30px;
+ }
+
+
+.about_deneuve p{
+	font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+.media{
+	
+	background-color: #0C0C0C;
+	
+	
+
+}
+
+.image-with-text {
+    position: relative;
+    padding: 60px;
+    background-color: #0C0C0C;
+
+}
+
+
+.image-with-text img {
+    width: 100%;
+    
+}
+
+ .image-with-text p {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    font-size: 56px; 
+    color: #000000; 
+    text-align: center;
+    
+}
+
+
+.media p{
+	font-size: 35px;
+	color: #FFFFFF;
+	text-align: left;
+	margin-left: 60px;
+	margin-bottom: 40px;
+
+}
+.medias{
+    display: flex;
+    flex-wrap: wrap;
+   /* margin-left: 20px;
+    margin-right: 20px;*/
+
+
+}
+.news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:390px;
+    padding: 25px;
+   
+	
+
+    
+}
+
+.news img{
+	height: 275px;
+	width: 100%;
+	   
+
+	
+}
+
+.news h3 a{ 
+	text-decoration: none;
+	font-size: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: Judson;
+    display: inline-block;
+    
+}
+    
+
+
+.photos{
+	background-color: #454648;
+	
+	
+	
+}
+
+.photos p{
+	padding-top: 20px;
+    text-align: center;
+	font-size: 40px;
+	color: white;
+	padding-bottom: 20px;
+	
+}
+
+.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 40px;
+} 
+.images img{
+	width: 140px;
+	height: 213px;
+	object-fit: cover;
+	object-position: bottom;
+	justify-content: center;
+	padding: 20px;
+}
+
+
+
+.more p a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	font-weight: 400;
+}
+.acting{
+	padding: 0;
+	margin: 0;
+	background-color: #232323;
+	z-index: -2;
+	position: relative;
+}
+.acting p{
+	z-index: 10;
+	color: white;
+	font-size: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.films{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*box-sizing: border-box;*/
+	background-color: #232323;
+	padding: 50px;
+	
+}
+
+.card-conteiner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	flex-wrap: wrap;
+
+}
+
+.card {
+width:250px;
+height: 800px;
+position: relative;
+background: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+transition: all .3s ease-in;
+}
+/*.card > *{
+	padding: 10px;
+}*/
+.card-image{
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+.card-title{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 500;
+
+}
+.card-sub-title{
+	text-transform: capitalize;
+	font-size: 16px;
+	font-size: 300;
+
+}
+.card-info{
+	font-size: 16px;
+	line-height: 25px;
+	margin: 40px 0;
+	font-weight: 400;
+
+}
+.card:hover{
+	background: #000000;
+	color: #fff;
+	box-shadow: 0px 0px 11px 5px #0000000;
+}
+
+
+
+.footer{
+	background-color: #000000;
+	color: white;
+
+
+}
+.form-container{
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	color: white;
+
+}
+form{
+	background: rgba(27,31,34,0.80);
+	width: 640px;
+	margin: 50px auto;
+	max-width: 97%;
+	padding: 55px 30px;
+}
+form .title h2{
+	letter-spacing: 6px;
+	border-bottom:1px solid white;
+	display: inline-block;
+	padding-bottom: 8px;
+	margin-bottom: 32px;
+	
+}
+/*form .half{
+	display: flex;
+	justify-content: space-between;
+}*/
+form .half .item{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 24px;
+	width:48%;
+
+}
+form label{
+	display: block;
+	font-size: 13px;
+	letter-spacing: 3.5px;
+	margin-bottom: 16px;
+}
+form .half .item input{
+	border:1px solid white;
+	outline: 0;
+	padding: 16px;
+	width: 100%;
+	height: 44px;
+	background: transparent;
+	font-size: 17px;
+}
+form .full{
+	margin-bottom: 24px;
+}
+form .full textarea{
+	background: transparent;
+	border:1px solid white;
+	outline: 0;
+	padding: 16px;
+	width: 90%;
+	height: 200px;
+	font-size: 17px;
+}
+form .action input{
+	background: transparent;
+	border: 1px solid white;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight:600;
+	height: 44px;
+	letter-spacing: 3px;
+	outline: 0;
+	padding: 0 20px 0 22px;
+	margin-right: 10px;
+	
+}
+form .action input:hover{
+	background: white;
+	color: black;
+}
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover{
+	background: rgba(255,255,255,0.075);
+}
+
+.social{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+
+
+	
+}
+.network{
+	padding-top: 60px;
+	
+	
+
+}
+
+.network h3 a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-weight: 400;
+	margin: 60px;
+	text-align: center;
+
+}
+
+.phone p{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.rights p{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+@media (max-width: 700px) {
+	.header{
+		padding-bottom: 500px;
+	}
+	.navigation .navbar .logo-toggle-container{
+		position: static;
+		transform: translateX(0%);
+	}
+	.navigation .navbar .logo-toggle-container a{
+		width: 80%;
+	}
+	.navigation .navbar .logo-toggle-container img{
+		width: 200px;
+
+	}
+
+    .navigation .navbar .logo-toggle-container .toggle-box{
+    	position: absolute;
+    	right: 10px;
+    	top: 30px;
+    	display: block;
+    	width: 30px;
+    	background: #000;
+    	padding: 15px 9px;
+    	cursor: pointer;
+    	border-radius: 5px;
+
+
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span
+    {
+    	display: block;
+    	max-width: 90%;
+    	margin: auto;
+    	height: 2px;
+    	background-color: white;
+    	margin-bottom: 4px; 
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span:last-child{
+    	margin-bottom: 0;
+
+    }
+    .navigation .menu{
+    	text-align: center;
+    	display: none;
+
+    }
+    .navigation .menu li{
+    	display: block;
+    	float: none !important;
+    	padding: 0 10px;
+    	
+    }
+    .about_deneuve img{
+ 	max-width: 300px;
+ 	float: left;
+ 	margin-left: 10px;
+ }
+ .media p{
+		font-size: 20px;
+	}
+	.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 15px;
+	margin-right: 15px;
+
+} 
+	.picture img{
+	padding: 20px;
+	height: 250px;
+	width: 180px;
+    }
+    .image-with-text p {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: #000000; 
+    text-align: center;
+    }
+    .image-with-text {
+    position: relative;
+    padding: 10px;
+    background-color: #0C0C0C;
+
+    }
+    .about_deneuve p{
+	font-size: 15px;
+    color: #FFFFFF;
+}
+   
+    
+}
+@media screen and  (min-width: 1224px) {
+
+	.header{
+		padding-bottom: 700px;
+	}
+	.navigation .menu{
+		display: block !important;
+		height: auto !important;
+	}
+	.navigation .navbar .logo-toggle-container {
+		left:440px;
+
+	}
+}
+
+
+
+@media (max-width: 1485px) {
+	.header{
+		padding-bottom: 750px;
+	}
+
+    .dissapear_one{
+    	display: none;
+    }
+    .picture img{
+	padding: 40px;
+    }
+   
+.navigation .navbar .logo-toggle-container {
+		left:560px;
+
+	}
+
+
+}
+
+    
+@media (max-width: 1355px) {
+
+   
+    .picture img{
+	padding: 55px;
+	height: 280px;
+	width: 200px;
+}  
+
+.navigation .navbar .logo-toggle-container {
+		left:540px;
+
+	}
+
+   
+    
+}
+@media (max-width: 1290px) {
+
+    .dissapear_three{
+    	display: none;
+    }
+     .dissapear_two{
+    	display: none;
+    }
+    .picture img{
+    height:320px;
+	width: 240px;
+	padding: 70px;
+    }
+    .navigation .menu li a{
+	display: block;
+	padding: 28px 7px;
+	font-size: 16px;
+
+}
+.navigation .menu li
+{
+	display: inline-block;
+	padding: 56px 6px;
+}
+    .navigation .navbar .logo-toggle-container {
+		left:520px;
+
+	}
+}  
+   
+ 
+ @media (max-width: 1150px) {
+
+    .dissapear_three{
+    	display: none;
+    }
+     .dissapear_two{
+    	display: none;
+    }
+    .picture img{
+    height:340px;
+	width: 260px;
+	padding: 70px;
+} 
+    .navigation .navbar .logo-toggle-container {
+		left:490px;
+
+	} 
+	 .navigation .menu li a{
+	display: block;
+	padding: 28px 6px;
+	font-size: 14px;
+
+}   
+}
+ 
+ @media (max-width: 1120px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:470px;
+
+	}   
+	#dissapear_one{
+		display: none;
+	} 
+	#dissapear_two{
+		display: none;
+	}
+	.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 80px;
+} 
+.images img{
+	width: 140px;
+	height: 213px;
+	object-fit: cover;
+	object-position: bottom;
+	justify-content: center;
+	padding: 20px;
+} 
+}
+@media (max-width: 1100px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:450px;
+
+	} 
+	.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 70px;
+}    
+}
+@media (max-width: 1090px) {
+	.header{
+		padding-bottom: 600px;
+	}
+
+    .navigation .navbar .logo-toggle-container {
+		left:450px;
+
+	}    
+}
+@media (max-width: 1050px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:440px;
+
+	}  
+	.navigation .menu li a{
+	display: block;
+	padding: 28px 4px;
+	font-size: 16px;  
+}
+@media (max-width: 1000px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:420px;
+
+	}  
+	.navigation .menu li a{
+	display: block;
+	padding: 28px 4px;
+	font-size: 16px;  
+}
+@media (max-width: 986px) {
+	#dissapear_three{
+		display: none;
+	}
+	.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 100px;
+}
+}
+
+@media (max-width: 950px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:410px;
+	}  
+	.navigation .menu li a{
+	display: block;
+	padding: 28px 4px;
+	font-size: 16px;  }
+	
+}
+@media (max-width: 940px) {
+
+    .navigation .navbar .logo-toggle-container {
+		left:380px;
+	}  
+	.navigation .menu li a{
+	display: block;
+	padding: 28px 4px;
+	font-size: 16px;  
+}
+@media (max-width: 920px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 80px;
+} 
+
+.news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:600px;
+    padding: 90px;   
+}
+.news h3 a{
+	font-size: 45px;
+}
+
+
+.news img{
+	height: 400px;
+	width: 100%;	
+} 
+}
+@media (max-width: 890px) {
+	.header{
+		padding-bottom: 550px;
+	}
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 70px;
+}  
+}
+@media (max-width: 820px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 80px;
+    } 
+   .images img{
+	width: 120px;
+	height: 190px;
+    }
+
+    .news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:600px;
+    padding: 80px;  
+}
+
+.news img{
+	height: auto;
+	width: 100%;
+	   
+
+	
+}
+
+
+}
+@media (max-width: 780px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 50px;
+} 
+
+
+}
+@media (max-width: 740px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 40px;
+} 
+.media p{
+	font-size: 28px;
+}
+.news{
+	padding: 70px;
+}
+.image-with-text p{
+	font-size: 28px;
+}
+
+
+}
+@media (max-width: 695px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 60px;
+} 
+#dissapear_three{
+	display: flex;
+}
+#dissapear_two{
+	display: flex;
+}
+
+}
+@media (max-width: 570px) {
+	.header{
+		padding-bottom: 500px;
+	}
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 100px;
+} 
+#dissapear_three{
+	display: none;
+}
+#dissapear_two{
+	display: none;
+}
+
+}
+@media (max-width: 520px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 70px;
+} 
+.media p{
+	font-size: 24px;
+}
+
+
+}
+@media (max-width: 412px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 120px;
+} 
+.media p{
+	font-size: 22px;
+}
+.news h3 a{ 
+	text-decoration: none;
+	font-size: 20px;
+    
+}
+
+
+}
+@media (max-width: 360px) {
+
+   .images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 90px;
+} 
+.news img{ 
+	width:100%;
+	height: auto;
+    
+}
+.news h3 a{ 
+	text-decoration: none;
+	font-size: 18px;
+    
+}
+.news{
+	max-width: 290px;
+	padding: 30px;
+}
+.media p{
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+
+}
+@media screen and (max-width: 900px) 
+{
+	.navigation .navbar .logo-toggle-container{
+		position: static;
+		transform: translateX(0%);
+	}
+	.navigation .navbar .logo-toggle-container a{
+		width: 80%;
+	}
+    .navigation .navbar .logo-toggle-container .toggle-box{
+    	position: absolute;
+    	right: 10px;
+    	top: 30px;
+    	display: block;
+    	width: 30px;
+    	background: #000;
+    	padding: 15px 9px;
+    	cursor: pointer;
+    	border-radius: 5px;
+
+
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span
+    {
+    	display: block;
+    	max-width: 90%;
+    	margin: auto;
+    	height: 2px;
+    	background-color: white;
+    	margin-bottom: 4px; 
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span:last-child{
+    	margin-bottom: 0;
+
+    }
+    .navigation .menu{
+    	text-align: center;
+    	display: none;
+
+    }
+    .navigation .menu li{
+    	display: block;
+    	float: none !important;
+    	padding: 0 5px;
+
+    }
+
+
+   
+   
+
+
+    
+}
+@media screen and (max-width: 320px) 
+{
+	.navigation .navbar .logo-toggle-container{
+		position: static;
+		transform: translateX(0%);
+	}
+	.navigation .navbar .logo-toggle-container a{
+		width: 80%;
+	}
+	.navigation .navbar .logo-toggle-container img{
+		width: 180px;
+
+	}
+
+    .navigation .navbar .logo-toggle-container .toggle-box{
+    	position: absolute;
+    	right: 10px;
+    	top: 30px;
+    	display: block;
+    	width: 30px;
+    	background: #000;
+    	padding: 15px 9px;
+    	cursor: pointer;
+    	border-radius: 5px;
+
+
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span
+    {
+    	display: block;
+    	max-width: 90%;
+    	margin: auto;
+    	height: 2px;
+    	background-color: white;
+    	margin-bottom: 4px; 
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span:last-child{
+    	margin-bottom: 0;
+
+    }
+    .navigation .menu{
+    	text-align: center;
+    	display: none;
+
+    }
+    .navigation .menu li{
+    	display: block;
+    	float: none !important;
+    	padding: 0 10px;
+    	
+    }
+    .about_deneuve img{
+ 	max-width: 230px;
+ 	float: left;
+ 	margin-left: 10px;
+ }
+ .media p{
+		font-size: 14px;
+		margin-left: 10px;
+	}
+	.picture img{
+	height: 280px;
+	width: 200px;
+    }
+    .image-with-text p {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    font-size: 20px; 
+    color: #000000; 
+    text-align: center;
+    }
+    .image-with-text {
+    position: relative;
+    padding: 10px;
+    background-color: #0C0C0C;
+
+    }
+    .about_deneuve p{
+	font-size: 15px;
+    color: #FFFFFF;
+}
+.images{
+	flex-wrap: wrap;
+	display: flex;
+	margin-left: 80px;
+}
+.image-with-text p {
+    font-size: 30px; 
+
+    
+    
+}
+ .news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:220px;
+    padding-left: 50px;  
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.news img{
+	height: auto;
+	width: 100%;
+	   
+
+	
+}
+.news h3 a{ 
+	text-decoration: none;
+	font-size: 12px;
+    
+    
+}
+
+
+
+
+
+}
