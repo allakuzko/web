@@ -869,13 +869,13 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 		padding-bottom: 500px;
 	}
 
-   .images{
+.images{
 	flex-wrap: wrap;
 	display: flex;
 	margin-left: 30px;
 } 
 .images img{
-	width: 470px;
+	width: 440px;
 	height: 620px;
 	object-fit: cover;
 	object-position: bottom;
@@ -908,7 +908,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 }
 @media (max-width: 520px) {
-	.images img{
+.images img{
 	width: 320px;
 	height: 460px;
 
@@ -970,8 +970,8 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 	/*margin-left: 20px;*/
 } 
 .images img{
-	width: 300px;
-	height: 460px;
+	width: 280px;
+	height: 400px;
 	object-fit: cover;
 	object-position: bottom;
 	justify-content: center;
