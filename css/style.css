@@ -548,7 +548,15 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 	}
 }
+@media (max-width: 1785px) {
+	.navigation .navbar .logo-toggle-container{
+	position: absolute;
+	left: 1000px;
+	top:20px;
+	transform: translateX(-50%);
+}
 
+}
 
 
 @media (max-width: 1485px) {
@@ -865,8 +873,17 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
    .images{
 	flex-wrap: wrap;
 	display: flex;
-	margin-left: 100px;
+	margin-left: 50px;
 } 
+.images img{
+	width: 470px;
+	height: 620px;
+	object-fit: cover;
+	object-position: bottom;
+	justify-content: center;
+	padding: 20px;
+}
+
 #dissapear_three{
 	display: none;
 }
@@ -900,6 +917,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 } 
 .media p{
 	font-size: 24px;
+	margin-left: 20px;
 }
  .news {
     display: block;
@@ -942,8 +960,17 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
    .images{
 	flex-wrap: wrap;
 	display: flex;
-	margin-left: 90px;
+	/*margin-left: 20px;*/
 } 
+.images img{
+	width: 320px;
+	height: 460px;
+	object-fit: cover;
+	object-position: bottom;
+	justify-content: center;
+	padding: 20px;
+}
+
 .news img{ 
 	width:100%;
 	height: auto;
