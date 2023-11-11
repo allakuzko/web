@@ -873,6 +873,22 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 #dissapear_two{
 	display: none;
 }
+ .news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:510px;
+    padding: 35px;  
+}
+
+.news img{
+	height: auto;
+	width: 100%;
+	   
+
+	
+}
+
 
 }
 @media (max-width: 520px) {
@@ -884,6 +900,21 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 } 
 .media p{
 	font-size: 24px;
+}
+ .news {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width:480px;
+    padding: 20px;  
+}
+
+.news img{
+	height: auto;
+	width: 100%;
+	   
+
+	
 }
 
 
