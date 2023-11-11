@@ -872,7 +872,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
    .images{
 	flex-wrap: wrap;
 	display: flex;
-	margin-left: 50px;
+	margin-left: 30px;
 } 
 .images img{
 	width: 470px;
@@ -908,12 +908,18 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 
 }
 @media (max-width: 520px) {
+	.images img{
+	width: 320px;
+	height: 460px;
 
-   .images{
+}
+.images{
 	flex-wrap: wrap;
 	display: flex;
-	margin-left: 70px;
-} 
+	margin-left: 10px;
+}
+
+   
 .media p{
 	font-size: 23px;
 	margin-left: 20px;
@@ -938,11 +944,12 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 }
 @media (max-width: 412px) {
 
-   .images{
-	flex-wrap: wrap;
-	display: flex;
-	margin-left: 120px;
-} 
+   
+.images img{
+	width: 320px;
+	height: 460px;
+
+}
 .media p{
 	font-size: 22px;
 	margin-left: 10px;
@@ -963,7 +970,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 	/*margin-left: 20px;*/
 } 
 .images img{
-	width: 320px;
+	width: 300px;
 	height: 460px;
 	object-fit: cover;
 	object-position: bottom;
@@ -1132,11 +1139,7 @@ form .half .item input:focus, form .full textarea:focus, form .action input[type
 	font-size: 15px;
     color: #FFFFFF;
 }
-.images{
-	flex-wrap: wrap;
-	display: flex;
-	margin-left: 80px;
-}
+
 .image-with-text p {
     font-size: 30px; 
 
